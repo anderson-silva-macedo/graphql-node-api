@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "./node_modules/.bin/tsc"
+    "tsc": "./node_modules/.bin/tsc",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "keywords": [],
   "author": "Anderson Macedo <andersonmacedo1782@hotmail.com> (https://andersonmacedo.netlify.com/)",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean": "0.3.2",
+    "gulp-typescript": "3.2.2",
     "typescript": "2.5.3"
   }
 }
